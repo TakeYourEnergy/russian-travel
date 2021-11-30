@@ -1,0 +1,36 @@
+.cover__link {
+  position: relative;
+  background-image: url(../../../images/cover-trains.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  width: 100%;
+  display: block;
+  min-height: 740px;
+  z-index: 0;
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cover__link::after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  content: " ";
+  display: block;
+  background-color: #2A2C2F;
+  width: 100%;
+  height: 100%;
+  opacity: 0.3;
+  z-index: -1;
+  transition: opacity linear 1.1s;
+}
+
+.cover__link:hover::after {
+  opacity: 0.8;
+  background-color: #2A2C2F;
+}
