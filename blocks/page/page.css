@@ -3,4 +3,13 @@
   width: 100%;
   color: #fff;
   background: #2A2C2F;
+  /* сглаживание */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* Подгонка размера текста */
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  /* Рендеринг */
+  text-rendering: optimizeLegibility;
 }
