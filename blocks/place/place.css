@@ -16,11 +16,30 @@
   }
 }
 
+@media screen and (max-width: 1024px) {
+  .place {
+    margin: 0 0 66px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .place {
     grid-column-gap: 28px;
     grid-template-columns: 340px 1fr;
-    margin: 0 0 73px;
+    margin: 0 0 65px;
+  }
+}
+
+@media screen and (max-width: 631px) {
+  .place {
+    grid-template-areas:
+    "title"
+    "url"
+    "image"
+    "text";
+    grid-row-gap: 32px;
+    margin: 0 0 41px;
+    grid-template-columns: 100%;
   }
 }
 
@@ -32,7 +51,9 @@
     "image"
     "text";
     grid-row-gap: 32px;
-    grid-column-gap: 0;
+    margin: 0 0 41px;
+    grid-template-columns: 100%;
   }
 }
+
 

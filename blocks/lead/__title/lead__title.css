@@ -4,21 +4,24 @@
   font-size: 96px;
   line-height: 100px;
   text-align: center;
-  margin: 56px 0 32px;
+  margin: 0 0 32px;
   max-width: 720px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   .lead__title {
-    margin: 48px 0 32px;
+    padding: 0 24px;
+    font-size: calc(40px + (56 + 56 * 0.7) * ((100vw - 320px) / 720));
+    line-height: calc(44px + (56 + 56 * 0.7) * ((100vw - 320px) / 720));
   }
 }
 
 @media screen and (max-width: 320px) {
   .lead__title {
-    margin: 48px 0 16px;
     max-width: 288px;
     font-size: 40px;
     line-height: 44px;
+    padding: 0 16px;
+    margin: 0 0 16px;
   }
 }

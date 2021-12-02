@@ -2,7 +2,9 @@
   font-family: 'Inter', 'arial', sans-serif;
   width: 100%;
   color: #fff;
-  background: #2A2C2F;
+  max-width: 1280px;
+  min-width: 320px;
+  margin: 0 auto;
   /* сглаживание */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
