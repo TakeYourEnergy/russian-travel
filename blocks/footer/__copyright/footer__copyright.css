@@ -6,3 +6,15 @@
   line-height: 16px;
   text-align: right;
 }
+
+@media screen and (max-width: 717px) {
+  .footer__copyright {
+    margin-top: 48px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer__copyright {
+    line-height: 14px;
+  }
+}
