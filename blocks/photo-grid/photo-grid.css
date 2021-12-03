@@ -36,6 +36,6 @@
     /* grid-template-columns: 1fr; */
     grid-gap: 12px;
     padding: 0 16px 0 16px;
-    margin: 64px auto;
+    margin: 64px auto 64px;
   }
 }
