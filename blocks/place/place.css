@@ -20,13 +20,21 @@
   .place {
     margin: 0 0 66px;
   }
+
+  .place:last-child {
+    margin: 0 0 90px;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .place {
     grid-column-gap: 28px;
     grid-template-columns: 340px 1fr;
-    margin: 0 0 65px;
+    margin: 0 0 48px;
+  }
+
+  .place:last-child {
+    margin: 0 0 58px;
   }
 }
 
