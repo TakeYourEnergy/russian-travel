@@ -8,19 +8,17 @@
   margin: 0 0 64px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .lead__subtitle {
-    font-size: calc(16px + ((30 - 16) + (30 - 16) * 0.61) * ((100vw - 320px) / 690));
-    line-height: calc(20px + (16 + 16  * 0.7) * ((100vw - 320px) / 690));
-    padding: 0 64px;
-    margin: -10px 0 56px;
+    margin: 0 0 56px;
   }
 }
 
-@media screen and (max-width: 385px) {
+@media screen and (min-width: 321px) and (max-width: 767px) {
   .lead__subtitle {
-    padding: 0 16px;
-    margin: 0 0 56px;
+    padding: 0 35px;
+    font-size: 18px;
+    line-height: 22px;
   }
 }
 
